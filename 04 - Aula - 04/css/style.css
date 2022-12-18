@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: black;
+}
+header{
+	background-color: #1C1C1C;
+	padding: 10px;
+}
+footer{
+	background-color: #4F4F4F;
+	padding: 20px 0;
+}
+
+/* ids e class */
+
+#header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.container{
+	max-width: 1070px;
+	
+	/*margin-right: auto;
+	margin-left: auto;*/
+	margin: 0 auto;
+}
+#brand{
+	width: 100px;
+}
+.navbar{
+	display: flex;
+}
+.navbar li{
+	list-style: none;
+}
+.navbar a{
+	margin: 10px 20px;
+	text-decoration: none;
+	color: white;
+}
+.navbar a:hover{
+	color: #666
+}
+#footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+}
